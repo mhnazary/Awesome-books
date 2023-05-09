@@ -1,4 +1,4 @@
-import { DateTime } from '../node_modules/luxon/src/luxon.js'';
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const timeNow = () => {
   const now = DateTime.now();
