@@ -43,7 +43,7 @@ class BookList {
     });
   }
 
-  displayBooks(books) {
+  displayBooks =(books)=> {
     this.bookList.innerHTML = '';
     books.forEach((book, index) => {
       const li = document.createElement('li');
